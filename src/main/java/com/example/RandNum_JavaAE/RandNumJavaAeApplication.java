@@ -27,6 +27,13 @@ public class RandNumJavaAeApplication {
 		return new Random().nextInt(1000001);
 	}
 
+	/**
+	 * 
+	 * SOURCES USED: Used the Apache HTTPClient example shown here:
+	 * https://www.mkyong.com/java/how-to-send-http-request-getpost-in-java/ Used
+	 * this example: https://stackoverflow.com/a/5204075 for timing the program
+	 *
+	 */
 	@GetMapping("/timing")
 	public static String[] get() throws IOException {
 
